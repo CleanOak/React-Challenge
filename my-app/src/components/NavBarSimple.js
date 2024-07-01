@@ -10,6 +10,7 @@ class NavBarSimple extends Component {
         }
     }
 
+
     handleClick() {
         this.setState((prevState, prevProps) =>{
     
@@ -41,6 +42,10 @@ class NavBarSimple extends Component {
 }
 
 
+
+export default NavBarSimple
+
+
 // const NavBarSimple = () => {
 //     return <nav className='css.NavBar'>
 //             <h1>My Gallery</h1>
@@ -53,4 +58,3 @@ class NavBarSimple extends Component {
 //            </nav>
 // }
 
-export default NavBarSimple;
