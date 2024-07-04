@@ -12,13 +12,14 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-   
-  },
+ 
+"scripts": {
+  "start": "NODE_OPTIONS=--openssl-legacy-provider your-start-script", 
+  "build": "NODE_OPTIONS=--openssl-legacy-provider your-build-script",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject" 
+  }, 
+
   "eslintConfig": {
     "extends": [
       "react-app",
