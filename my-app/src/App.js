@@ -1,12 +1,10 @@
-import css from './App.module.css';
-
-import UseStateWithArrays from './components/UseStateWithArrays';
+import HTTPRequests from "./components/HTTPRequests";
 
 
 function App() {
   return (
     <div className="App">
-      <UseStateWithArrays/>
+      <HTTPRequests/>
     </div>
   );
 }
